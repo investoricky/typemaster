@@ -1,0 +1,96 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Poppins', sans-serif;
+}
+/* navBar */
+.TM {
+    background-color: #F57000;
+    font-size: 15px;
+}
+/* gridSection_1 */
+.fs {
+    font-size: 5rem;
+}
+.paragraf {
+    font-size: 1.4rem;
+}
+.butonfont {
+    font-size: 2rem;
+}
+.butncolor {
+    background-color: #F57000;
+}
+.imageheight {
+    width: 100%;
+    height: max-content;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+/* gridSection_2 */
+.cont {
+    background-image: url('/CSS/JS/images/k_2.jpg');
+    background-color: rgba(255, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 400px;
+    border-radius: 20px;
+}
+.cont2 {
+    background-image: url('/CSS/JS/images/k_3.jpg');
+    height: 400px;
+    border-radius: 20px;
+    background-size: cover;
+}
+.fs2 {
+    font-size: 3.5rem;
+}
+.paragraf2 {
+    font-size: 1.7rem;
+}
+/* gridSection_3 */
+.fa {
+    background-color: #F57000;
+    color: #fff;
+    border-radius: 10px;
+}
+.paragraf3 {
+    font-size: 1.4rem;
+}
+/* footer */
+.vl {
+    width: 2px;
+    height: auto;
+    background-color: #808080;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .navbar, .flexx, .batterysection, .bulbsection, .mechanical, .flexx1, .flexx2 {
+        padding: 0 10px !important;
+    }
+    .tmParagraf {
+        padding: 0 !important;
+    }
+    .row, .con {
+        padding: 0 10px !important;
+        text-align: center;
+    }
+    .cont, .cont2 {
+        height: 250px;
+    }
+    .fs, .fs2 {
+        font-size: 36px;
+    }
+    .paragraf, .paragraf2, .paragraf3 {
+        font-size: 20px;
+    }
+    .butonfont {
+        font-size: 25px;
+    }
+    .imageheight {
+        height: 250px;
+        border-radius: 20px;
+    }
+}
